@@ -1,0 +1,6 @@
+The Successive Over-Relaxation (SOR) approach, which required just 8 iterations, outperformed the other iterative approaches for solving linear problems in this comparison,
+requiring 9 iterations from the Gauss-Seidel method and 13 iterations from the Jacobi method.
+The Jacobi technique frequently results in slower convergence since it updates every element of the solution vector simultaneously. 
+The Gauss-Seidel approach, in contrast, updates the solution vector components one after the other and typically converges more quickly than the Jacobi technique.
+This particular scenario illustrates how the SOR method, which is essentially a relaxation factor-enhanced variant of Gauss-Seidel,
+usually converges more quickly than both Jacobi and Gauss-Seidel.
